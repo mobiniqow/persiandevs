@@ -1,0 +1,15 @@
+{
+  "name": "persiandev-node",
+  "version": "1.0.0",
+  "description": "persiandevs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/mobiniqow/persiandevs"
+  },
+  "author": "mobiniqow",
+  "license": "ISC"
+}
