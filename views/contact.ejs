@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Page Title -->
+    <title>سئوبیز</title>
+
+    <!-- Meta Data -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- Web Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya:400,500,700%7CSource+Sans+Pro:400,600,700&display=swap">
+
+    <!-- ======= Bootstrap CSS ======= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- ======= Font Awesome CSS ======= -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- ======= Owl Carousel CSS ======= -->
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/owl.carousel.min.css">
+
+    <!-- ======= Main Stylesheet ======= -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- ======= Custom Stylesheet ======= -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body style="text-align: right;direction: rtl">
+
+    <!-- Begin Preloader -->
+    <div class='preloader w-100 h-100 position-fixed'>
+        <span class="loader">
+           بارگذاری…
+        </span>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Header -->
+<%- include('partials/header') %>
+    <!-- End Header -->
+    
+    <!-- Page Title -->
+    <section class="pt-140 pb-140">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title">
+                        <h2>تماس</h2>
+                        <ul class="list-inline">
+                            <li><a href="index.html">صفحه اصلی</a></li>
+                            <li>تماس</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Page Title -->
+
+    <!-- Contact Form -->
+    <section class="pb-140">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Contact Form Begin -->
+                    <div class="contact-form-wrapper">
+                        <h2>ما از اینکه ازت خبر داشته باشیم خوشحال میشویم</h2>
+                        <p>احاطه در برابر حمله مطلوب هیچ آقای. لاین مثل نیمی از او هنوز شادی می دانست. کسل کننده باشید همانطور که بسیار شات دیده می شود.</p>
+                    
+                        <form method="POST" action="sendmail.php" class="contact-form">
+                           
+                            <input type="text" name="name" class="theme-input-style" placeholder = "نام شما" oninvalid="this.setCustomValidity('نام شما نمیتواند خالی باشد')" required>
+                        
+                            <input type="email" name="email" class="theme-input-style" placeholder = "ایمیل شما" oninvalid="this.setCustomValidity('ایمیل شما نمیتواند خالی باشد')" required>
+                        
+                            <textarea name="message" class="theme-input-style" ></textarea>
+                        
+                            <button type="submit" class="btn"><span>ارسال</span></button>
+                            
+                        </form>
+                        <div class="form-response"></div>
+                    </div>
+                    <!-- Contact Form End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Contact Image -->
+                    <div class="mt-50 mt-lg-0">
+                        <img src="assets/img/feature/contact.png" data-rjs="2" alt="">
+                    </div>
+                    <!-- End Contact Image -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Form -->
+
+    <!-- Contact Info -->
+    <section class="pb-110">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Title -->
+                    <div class="section-title text-center">
+                        <h2>بیا و از دفتر ما بازدید کن</h2>
+                    </div>
+                    <!-- End Section Title -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <!-- Single Contact Info -->
+                    <div class="single-contact-info">
+                        <h3>مکان دفتر</h3>
+                        <p>خیابان طالقانی ، کوچه 4 ساختمان 2 پلاک 6  </p>
+                    </div>
+                    <!-- End Single Contact Info -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <!-- Single Contact Info -->
+                    <div class="single-contact-info">
+                        <h3>تلفن کاری</h3>
+                        <p>
+                            <a style="direction: ltr" href="#">+913-321-111-222</a>
+                            <a style="direction: ltr" href="#">+913-321-111-222</a>
+                        </p>
+                    </div>
+                    <!-- End Single Contact Info -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <!-- Single Contact Info -->
+                    <div class="single-contact-info">
+                        <h3>نامه پشتیبانی</h3>
+                        <p>
+                            <a href="#">support.TL@gmail.com</a> 
+                            <a href="#">support.themelooks.com</a>
+                        </p>
+                    </div>
+                    <!-- End Single Contact Info -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <!-- Single Contact Info -->
+                    <div class="single-contact-info">
+                        <h3>ساعات اداری</h3>
+                        <p>8 صبح - 5 عصر (شنبه - 4شنبه)
+                       5شنبه و جمعه</p>
+                    </div>
+                    <!-- End Single Contact Info -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Info -->
+    
+    <!-- Start Map -->
+    <div class="map" data-trigger="map"
+        data-map-options='{"latitude": "40.6785635", "longitude": "-73.9664109", "zoom": "11"}'>
+    </div>
+    <!-- End Map -->
+
+    <!-- Footer -->
+    <%- include('partials/footer') %>
+    <!-- End Footer -->
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
+
+    <!-- ======= jQuery Library ======= -->
+    <script src="assets/js/jquery.min.js"></script>
+    
+    <!-- ======= Bootstrap Bundle JS ======= -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- =======  Mobile Menu JS ======= -->
+    <script src="assets/js/menu.min.js"></script>
+
+    <!-- ======= Owl Carousel JS ======= -->
+    <script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- ======= Retina JS ======= -->
+    <script src="assets/plugins/retinajs/retina.min.js"></script>
+
+    <!-- ======= Google API ======= -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjkssBA3hMeFtClgslO2clWFR6bRraGz0"></script>
+
+    <!-- ======= Main JS ======= -->
+    <script src="assets/js/main.js"></script>
+    
+    <!-- ======= Custom JS ======= -->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
